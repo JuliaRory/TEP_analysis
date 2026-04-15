@@ -15,7 +15,7 @@ def plot_teps(filename):
         time = h5f['data/tvec'][:][0]
         conds = h5f['data/conds'][:]
 
-    #conds = np.vstack([[False, False, False], conds[:-1]])
+    conds = np.vstack([[False, False, False], conds[:-1]])
     
     pre_mask = conds[:, 0].astype(bool)
     imag_mask = conds[:, 1].astype(bool)
