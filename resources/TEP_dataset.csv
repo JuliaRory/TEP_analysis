@@ -1,0 +1,195 @@
+fileN,sessionName,filename,sessionID,setID,ISI,nEpoch,MEPpp,datasetN,ParticipantName,Date,spot,%_MSO,%_thr,coil,angle_yaw,Task
+1,08 TEP test Daniil NVX136,test_008_AP.h5,08,1,"1,82",100,"0,03",1,Бердышев Даниил,9.10.2025,M1,49,100,qp,-135,rest
+2,08 TEP test Daniil NVX136,test_008_checkers_piu.h5,08,2,1,109,"0,51",2,Бердышев Даниил,9.10.2025,M1,49,100,qp,45,checkers
+3,08 TEP test Daniil NVX136,test_008_piu.h5,08,3,"1,83",90,"0,43",2,Бердышев Даниил,9.10.2025,M1,49,100,qp,45,rest
+4,08 TEP test Daniil NVX136,test_MI_AP_136_002.hdf5,08,4,"1,66",69,"0,04",1,Бердышев Даниил,9.10.2025,M1,49,100,qp,-135,rest
+5,08 TEP test Daniil NVX136,test_MI_PA_136_001_49MSO.hdf5,08,5,"1,82",69,"0,63",3,Бердышев Даниил,9.10.2025,M1,49,100,qp,45,MI
+6,08 TEP test Daniil NVX136,test_MI_PA_136_002_42MSO.hdf5,08,6,"1,82",69,"0,29",3,Бердышев Даниил,9.10.2025,M1,42,85,qp,45,MI
+7,09 test Anatoly MI 52MSO 43MSO,anatoly_MI_43MSO.h5,09,1,"2,25",88,"0,00",4,Васильев Анатолий,13.10.2025,M1,43,None,qp,45,MI
+8,09 test Anatoly MI 52MSO 43MSO,anatoly_MI_52MSO.h5,09,2,"2,26",85,"0,00",4,Васильев Анатолий,13.10.2025,M1,52,None,qp,45,MI
+9,10 test Timofei MI,01_tms_mi_58.h5,10,1,"2,23",90,"0,34",5,Пономорёв Тимофей,15.10.2025,M1,58,None,qp,45,MI
+10,10 test Timofei MI,02_tms_mi_60.h5,10,2,"2,23",90,"0,20",5,Пономорёв Тимофей,15.10.2025,M1,60,None,qp,45,MI
+11,10 test Timofei MI,03_tms_mi_48.h5,10,3,"2,23",90,"0,10",5,Пономорёв Тимофей,15.10.2025,M1,48,None,qp,45,MI
+12,10 test Timofei MI,04_tms_mi_p_60.h5,10,4,"2,23",90,"0,01",6,Пономорёв Тимофей,15.10.2025,PPC,60,None,qp,45,MI
+13,10 test Timofei MI,05_tms_mi_p_48.h5,10,5,"2,23",90,"0,00",6,Пономорёв Тимофей,15.10.2025,PPC,48,None,qp,45,MI
+14,11 test Anatoly 53MSO 38MSO,01_tms_mi_vs_count_MSO53.h5,11,1,"2,13",90,"0,71",7,Васильев Анатолий,20.10.2025,M1,53,None,qp,45,MI_count
+15,11 test Anatoly 53MSO 38MSO,02_tms_mi_vs_cross_MSO53.h5,11,2,"2,06",91,"0,56",7,Васильев Анатолий,20.10.2025,M1,53,None,qp,45,MI_cross
+16,11 test Anatoly 53MSO 38MSO,03_tms_mi_vs_visual_MSO53.h5,11,3,"2,06",90,"0,50",7,Васильев Анатолий,20.10.2025,M1,53,None,qp,45,MI_visual
+17,11 test Anatoly 53MSO 38MSO,04_tms_visual_vs_cross_MSO53.h5,11,4,"2,06",90,"0,24",7,Васильев Анатолий,20.10.2025,M1,53,None,qp,45,visual_cross
+18,11 test Anatoly 53MSO 38MSO,05_tms_mi_vs_cross_MSO38.h5,11,5,"2,06",91,"0,01",7,Васильев Анатолий,20.10.2025,M1,38,None,qp,45,MI_cross
+19,13 test Anatoly MRI and TEP at M1,av_m1_mi.hdf5,13,1,"3,17",25,"3,02",8,Васильев Анатолий,18.11.2025,M1,None,None,qp,45,MI
+20,13 test Anatoly MRI and TEP at M1,av_m1_nomi.hdf5,13,2,"3,17",25,"0,05",8,Васильев Анатолий,18.11.2025,M1,None,None,qp,45,rest
+21,14 test Alsu TEP,02_alsu_just_piu.hdf,14,1,"2,06",91,"2,66",9,Мифтахова Алсу,20.11.2025,M1,None,None,qp,45,rest
+22,14 test Alsu TEP,03_alsu_mi_cross_43.hdf,14,2,"2,06",90,"2,83",9,Мифтахова Алсу,20.11.2025,M1,43,None,qp,45,MI_cross
+23,14 test Alsu TEP,04_alsu_mi_cross_38.hdf,14,3,"2,06",90,"0,24",9,Мифтахова Алсу,20.11.2025,M1,38,None,qp,45,MI_cross
+24,14 test Alsu TEP,alsu_M1_25mi.hdf5,14,4,"6,45",25,"1,15",10,Мифтахова Алсу,20.11.2025,M1,None,None,qp,45,MI
+25,14 test Alsu TEP,alsu_M1_25nomi.hdf5,14,5,"6,45",25,"0,85",10,Мифтахова Алсу,20.11.2025,M1,None,None,qp,45,rest
+26,14 test Alsu TEP,alsu_PM_25mi.hdf5,14,6,"6,45",25,"0,04",11,Мифтахова Алсу,20.11.2025,PM,None,None,qp,45,MI
+27,14 test Alsu TEP,alsu_PM_25nomi.hdf5,14,7,"6,45",25,"0,01",11,Мифтахова Алсу,20.11.2025,PM,None,None,qp,45,rest
+28,14 test Alsu TEP,alsu_PPC_25mi.hdf5,14,8,"6,45",25,"0,02",12,Мифтахова Алсу,20.11.2025,PPC,None,None,qp,45,MI
+29,14 test Alsu TEP,alsu_PPC_25nomi.hdf5,14,9,"6,45",25,"0,01",12,Мифтахова Алсу,20.11.2025,PPC,None,None,qp,45,rest
+30,14 test Alsu TEP,alsu_SMA_25mi.hdf5,14,10,"6,45",25,"0,02",13,Мифтахова Алсу,20.11.2025,SMA,None,None,qp,90,MI
+31,14 test Alsu TEP,alsu_SMA_25nomi.hdf5,14,11,"6,45",25,"0,03",13,Мифтахова Алсу,20.11.2025,SMA,None,None,qp,90,rest
+32,15 test Anatoly triplets,M1_mi.hdf5,15,1,"2,77",76,"1,22",14,Васильев Анатолий,03.12.2025,M1,None,None,qp,45,MI
+33,15 test Anatoly triplets,M1_movements.hdf5,15,2,"2,78",76,"0,50",14,Васильев Анатолий,03.12.2025,M1,None,None,qp,45,movements
+34,15 test Anatoly triplets,PM_mi.hdf5,15,3,"2,77",76,"0,01",15,Васильев Анатолий,03.12.2025,PM,None,None,qp,45,MI
+35,16 test Yulia triplets M1,01_MI_M1.hdf5,16,1,"6,17",75,"0,18",16,Шевцова Юлия,11.12.2025,M1,60,100,qp,45,MI
+36,16 test Yulia triplets M1,02_QM-M1.hdf5,16,2,"6,19",75,"0,70",16,Шевцова Юлия,11.12.2025,M1,60,100,qp,45,QM
+37,16 test Yulia triplets M1,03_MI-M1.hdf5,16,3,"6,23",75,"0,24",16,Шевцова Юлия,11.12.2025,M1,60,100,qp,45,MI
+38,17 test Daniil triplets M1 PM SMA,M1_imagery.hdf5,17,1,"5,89",75,"0,42",17,Бердышев Даниил,17.12.2025,M1,49,100,qp,45,MI
+39,17 test Daniil triplets M1 PM SMA,M1_micro.hdf5,17,2,"5,91",75,"0,65",17,Бердышев Даниил,17.12.2025,M1,49,100,qp,45,micromovements
+40,17 test Daniil triplets M1 PM SMA,PM_imagery.hdf5,17,3,"5,89",75,"0,02",18,Бердышев Даниил,17.12.2025,PM,49,100,qp,45,MI
+41,17 test Daniil triplets M1 PM SMA,PM_micro.hdf5,17,4,"5,9",75,"0,06",18,Бердышев Даниил,17.12.2025,PM,49,100,qp,45,micromovements
+42,17 test Daniil triplets M1 PM SMA,SMA_imagery.hdf5,17,5,"5,9",75,"0,02",19,Бердышев Даниил,17.12.2025,SMA,49,100,qp,90,MI
+43,17 test Daniil triplets M1 PM SMA,SMA_micro.hdf5,17,6,"5,89",75,"0,25",19,Бердышев Даниил,17.12.2025,SMA,49,100,qp,90,micromovements
+44,18 test Artem triplets M1 PM,AY_M1_1_MI.hdf5,18,1,"5,88",76,"0,59",20,Яшин Артём,26.12.2025,M1,40,100,qp,45,MI
+45,18 test Artem triplets M1 PM,AY_M1_2_QM.hdf5,18,2,"5,89",75,"1,02",20,Яшин Артём,26.12.2025,M1,40,100,qp,45,QM
+46,18 test Artem triplets M1 PM,AY_M1_3_rest.hdf5,18,3,"5,89",75,"0,09",20,Яшин Артём,26.12.2025,M1,40,100,qp,45,rest
+47,18 test Artem triplets M1 PM,AY_PM_1_MI.hdf5,18,4,"5,91",75,"0,06",21,Яшин Артём,26.12.2025,PM,40,100,qp,45,MI
+48,18 test Artem triplets M1 PM,AY_PM_2_rest.hdf5,18,5,"5,92",74,"0,01",21,Яшин Артём,26.12.2025,PM,40,100,qp,45,rest
+49,18 test Artem triplets M1 PM,AY_PM_4_QM.hdf5,18,6,"5,89",75,"0,14",21,Яшин Артём,26.12.2025,PM,40,100,qp,45,QM
+50,19 test Anatoly Coils,01_coil_8_M1_PA.hdf5,19,1,"5,89",75,"0,64",22,Васильев Анатолий,19.1.2026,M1,50,100,qp,45,MI
+51,19 test Anatoly Coils,02_coil_T_M1_to.hdf5,19,2,"5,89",75,"0,26",23,Васильев Анатолий,19.1.2026,M1,55,100,T,45,MI
+52,19 test Anatoly Coils,03_coil_T_M1_from.hdf5,19,3,"5,89",56,"0,17",24,Васильев Анатолий,19.1.2026,M1,58,100,T,-135,MI
+53,20 test Alsu Coils,-135_T_M1_75triplets.hdf5,20,1,"5,88",73,"0,19",27,Мифтахова Алсу,23.01.2026,M1,60,100,T,-135,MI
+54,20 test Alsu Coils,-45_T_M1_20triplets.hdf5,20,2,"5,93",24,"0,02",34,Мифтахова Алсу,23.01.2026,M1,55,-,T,-45,MI
+55,20 test Alsu Coils,0_T_M1_20triplets.hdf5,20,3,"5,93",24,"0,07",33,Мифтахова Алсу,23.01.2026,M1,55,-,T,0,MI
+56,20 test Alsu Coils,0_qp_SMA_75triplets.hdf5,20,4,"5,88",75,"0,02",29,Мифтахова Алсу,23.01.2026,SMA,58,130,qp,0,MI
+57,20 test Alsu Coils,135_T_M1_20triplets.hdf5,20,5,"5,91",24,"0,01",32,Мифтахова Алсу,23.01.2026,M1,55,-,T,135,MI
+58,20 test Alsu Coils,180_T_M1_20triplets.hdf5,20,6,"5,91",24,"0,01",31,Мифтахова Алсу,23.01.2026,M1,55,-,T,180,MI
+59,20 test Alsu Coils,45_T_M1_20triplets.hdf5,20,7,"5,92",24,"1,42",30,Мифтахова Алсу,23.01.2026,M1,55,-,T,45,MI
+60,20 test Alsu Coils,45_T_M1_75triplets.hdf5,20,8,"5,88",75,"0,31",26,Мифтахова Алсу,23.01.2026,M1,48,100,T,45,MI
+61,20 test Alsu Coils,45_qp_M1_75triplets.hdf5,20,9,"5,89",75,"0,45",25,Мифтахова Алсу,23.01.2026,M1,45,100,qp,45,MI
+62,20 test Alsu Coils,90_qp_SMA_75triplets.hdf5,20,10,"5,89",75,"0,36",28,Мифтахова Алсу,23.01.2026,SMA,58,130,qp,90,MI
+63,21 test Darisy Coils,DZ_-135_T_M1_75triplets.hdf5,21,1,"5,91",75,"0,12",39,Чжао Дарисий,27.01.2026,M1,76,100,T,-135,MI
+64,21 test Darisy Coils,DZ_0_qp_SMA_75triplets.hdf5,21,2,"5,92",75,"0,00",38,Чжао Дарисий,27.01.2026,SMA,65,108,qp,0,MI
+65,21 test Darisy Coils,DZ_45_T_M1_75triplets.hdf5,21,3,"5,89",75,"0,19",36,Чжао Дарисий,27.01.2026,M1,66,100,T,45,MI
+66,21 test Darisy Coils,DZ_45_qp_M1_75triplets.hdf5,21,4,"5,89",75,"1,07",35,Чжао Дарисий,27.01.2026,M1,60,100,qp,45,MI
+67,21 test Darisy Coils,DZ_90_qp_SMA_75triplets.hdf5,21,5,"5,91",75,"0,10",37,Чжао Дарисий,27.01.2026,SMA,65,108,qp,90,MI
+68,22 test Evgeny Coils,01_ES_M1_qp_45.hdf5,22,1,"5,9",75,"1,44",38,Свирин Евгений,03.02.2026,М1,56,100,qp,45,MI
+69,22 test Evgeny Coils,02_ES_M1_T_-135_65MSO.hdf5,22,2,"5,91",75,"0,09",39,Свирин Евгений,03.02.2026,М1,65,-,T,-135,MI
+70,22 test Evgeny Coils,03_ES_SMA_qp_90.hdf5,22,3,"5,89",75,"0,35",40,Свирин Евгений,03.02.2026,SMA,62,110,qp,90,MI
+71,22 test Evgeny Coils,04_ES_SMA_qp_0.hdf5,22,4,"5,9",75,"0,01",41,Свирин Евгений,03.02.2026,SMA,62,110,qp,0,MI
+72,22 test Evgeny Coils,05_ES_M1_T_45_56MSO.hdf5,22,5,"5,9",75,"1,38",42,Свирин Евгений,03.02.2026,М1,56,-,T,45,MI
+73,22 test Evgeny Coils,06_ES_M1_T_-135_56MSO.hdf5,22,6,"5,88",75,"0,05",43,Свирин Евгений,03.02.2026,М1,56,-,T,-135,MI
+74,22 test Evgeny Coils,07_ES_M1_T_135_25triplets.hdf5,22,7,"5,89",24,"0,01",44,Свирин Евгений,03.02.2026,М1,56,-,T,-135,MI
+75,22 test Evgeny Coils,08_ES_M1_T_180_25triplets.hdf5,22,8,"5,93",24,"0,01",45,Свирин Евгений,03.02.2026,М1,56,-,T,180,MI
+76,22 test Evgeny Coils,09_ES_M1_T_-90_25triplets.hdf5,22,9,"5,93",24,"0,01",46,Свирин Евгений,03.02.2026,М1,56,-,T,-90,MI
+77,22 test Evgeny Coils,10_ES_M1_T_-45_25triplets.hdf5,22,10,"5,93",24,"0,01",47,Свирин Евгений,03.02.2026,М1,56,-,T,-45,MI
+78,22 test Evgeny Coils,11_ES_M1_T_0_25triplets.hdf5,22,11,"5,93",24,"0,57",48,Свирин Евгений,03.02.2026,M1,56,-,T,0,MI
+79,22 test Evgeny Coils,12_ES_M1_T_90_25triplets.hdf5,22,12,"5,92",24,"0,02",49,Свирин Евгений,03.02.2026,М1,56,-,T,90,MI
+80,23 test Andrey Coils,01_AM_M1_qp_45.hdf5,23,1,"5,9",75,"0,47",50,Мирошников Андрей,04.02.2026,М1,44,100,qp,45,MI
+81,23 test Andrey Coils,02_AM_M1_T_45.hdf5,23,2,"5,93",75,"1,70",51,Мирошников Андрей,04.02.2026,М1,49,-,T,45,MI
+82,23 test Andrey Coils,03_AM_M1_T_-135.hdf5,23,3,"5,9",75,"0,12",52,Мирошников Андрей,04.02.2026,М1,49,-,T,-135,MI
+83,23 test Andrey Coils,04_AM_M1_qp_90.hdf5,23,4,"5,92",75,"0,04",53,Мирошников Андрей,04.02.2026,SMA,57,130,qp,90,MI
+84,23 test Andrey Coils,05_AM_SMA_qp_0.hdf5,23,5,"5,89",75,"0,02",54,Мирошников Андрей,04.02.2026,SMA,57,130,qp,0,MI
+85,23 test Andrey Coils,06_AM_M1_T_0_25triplets.hdf5,23,6,"5,91",24,"0,01",55,Мирошников Андрей,04.02.2026,М1,49,-,T,0,MI
+86,23 test Andrey Coils,07_AM_M1_T_-45_25triplets.hdf5,23,7,"5,91",24,"0,01",56,Мирошников Андрей,04.02.2026,М1,49,-,T,-45,MI
+87,23 test Andrey Coils,08_AM_M1_T_-90_25triplets.hdf5,23,8,"5,91",24,"0,03",57,Мирошников Андрей,04.02.2026,М1,49,-,T,-90,MI
+88,23 test Andrey Coils,09_AM_M1_T_180_25triplets.hdf5,23,9,"5,91",24,"0,01",58,Мирошников Андрей,04.02.2026,М1,49,-,T,180,MI
+89,23 test Andrey Coils,10_AM_M1_T_135_25triplets.hdf5,23,10,"5,91",24,"0,01",59,Мирошников Андрей,04.02.2026,М1,49,-,T,135,MI
+90,23 test Andrey Coils,11_AM_M1_T_90_25triplets-001.hdf5,23,11,"5,9",24,"0,22",60,Мирошников Андрей,04.02.2026,М1,49,-,T,90,MI
+91,24 test Timofei Coils,01_TP_M1_qp_45.hdf5,24,1,"5,89",75,"0,31",61,Пономорёв Тимофей,10.02.2026,М1,63,100,qp,45,MI
+92,24 test Timofei Coils,02_TP_M1_T_45.hdf5,24,2,"5,9",75,"0,37",62,Пономорёв Тимофей,10.02.2026,М1,70,-,T,45,MI
+93,24 test Timofei Coils,03_TP_SMA_qp_90.hdf5,24,3,"5,9",75,"0,03",63,Пономорёв Тимофей,10.02.2026,SMA,65,103,qp,90,MI
+94,24 test Timofei Coils,04_TP_SMA_qp_0.hdf5,24,4,"5,9",75,"0,00",64,Пономорёв Тимофей,10.02.2026,SMA,65,103,qp,0,MI
+95,24 test Timofei Coils,05_TP_M1_T_-135.hdf5,24,5,"5,91",75,"0,06",65,Пономорёв Тимофей,10.02.2026,М1,70,-,T,-135,MI
+96,24 test Timofei Coils,06_TP_M1_T_0.hdf5,24,6,"5,93",24,"0,03",66,Пономорёв Тимофей,10.02.2026,М1,70,-,T,0,MI
+97,24 test Timofei Coils,07_TP_M1_T_0-001.hdf5,24,7,"5,93",24,"0,05",67,Пономорёв Тимофей,10.02.2026,М1,70,-,T,-45,MI
+98,24 test Timofei Coils,08_TP_M1_T_-90.hdf5,24,8,"5,92",24,"0,48",68,Пономорёв Тимофей,10.02.2026,М1,70,-,T,-90,MI
+99,24 test Timofei Coils,09_TP_M1_T_90.hdf5,24,9,"5,93",24,"0,05",69,Пономорёв Тимофей,10.02.2026,М1,70,-,T,90,MI
+100,24 test Timofei Coils,10_TP_M1_T_135.hdf5,24,10,"5,92",24,"0,02",70,Пономорёв Тимофей,10.02.2026,М1,70,-,T,135,MI
+101,24 test Timofei Coils,11_TP_M1_T_180.hdf5,24,11,"5,9",24,"0,06",71,Пономорёв Тимофей,10.02.2026,M1,70,-,T,180,MI
+102,24 test Timofei Coils,12_TP_qp-T_2coils.hdf5,24,12,"5,87",75,"2,19",72,Пономорёв Тимофей,10.02.2026,M1-PM,70-70,-,qp-T,45-90,MI
+103,25 test Anatoly Coils,01_AV_M1_qp_45.hdf5,25,1,"5,9",76,"0,42",73,Васильев Анатолий,12.02.2026,М1,50,100,qp,45,MI
+104,25 test Anatoly Coils,02_AV_M1_T_45.hdf5,25,2,"5,92",75,"1,80",74,Васильев Анатолий,12.02.2026,М1,63,-,T,45,MI
+105,25 test Anatoly Coils,03_AV_M1_T_-135.hdf5,25,3,"5,91",75,"0,89",75,Васильев Анатолий,12.02.2026,М1,63,-,T,-135,MI
+106,25 test Anatoly Coils,04_AV_SMA_qp_90.hdf5,25,4,"5,95",75,"0,06",76,Васильев Анатолий,12.02.2026,SMA,55,110,qp,90,MI
+107,25 test Anatoly Coils,05_AV_SMA_qp_0.hdf5,25,5,"5,9",75,"0,00",77,Васильев Анатолий,12.02.2026,SMA,55,110,qp,0,MI
+108,25 test Anatoly Coils,06_AV_M1-PM_qp-T_45-90.hdf5,25,6,"5,88",75,"0,29",78,Васильев Анатолий,12.02.2026,M1-PM,50-60,-,qp-T,45-90,MI
+109,25 test Anatoly Coils,07_AV_M1-PM_qp-T_45-90.hdf5,25,7,"5,88",75,"0,69",79,Васильев Анатолий,12.02.2026,M1-PM,50-63,-,qp-T,45-90,MI
+110,25 test Anatoly Coils,08_AV_M1_T_45_63.hdf5,25,8,"5,95",33,"1,44",80,Васильев Анатолий,12.02.2026,М1,63,-,T,45,MI
+111,25 test Anatoly Coils,09_AV_M1_T_45_54.hdf5,25,9,"5,9",62,"0,78",81,Васильев Анатолий,12.02.2026,М1,54,-,T,45,MI
+112,26 test Daniil Coils,01_DB_M1_qp_45.hdf5,26,1,"5,93",75,"0,08",,Бердышев Даниил,16.02.2026,M1,56,100,qp,45,MI
+113,26 test Daniil Coils,02_DB_M1_T_45.hdf5,26,2,"5,93",75,"0,25",,Бердышев Даниил,16.02.2026,M1,65,-,T,45,MI
+114,26 test Daniil Coils,03_DB_M1_T_-135.hdf5,26,3,"5,92",75,"0,01",,Бердышев Даниил,16.02.2026,M1,65,-,T,-135,MI
+115,26 test Daniil Coils,04_DB_SMA_qp_90.hdf5,26,4,"5,97",75,"0,10",,Бердышев Даниил,16.02.2026,SMA,65,116,qp,90,MI
+116,26 test Daniil Coils,05_DB_SMA_qp_0.hdf5,26,5,"5,89",75,"0,00",,Бердышев Даниил,16.02.2026,SMA,65,116,qp,0,MI
+117,26 test Daniil Coils,06_DB_M1-PM_qp-T_45-90.hdf5,26,6,"5,89",75,"0,11",,Бердышев Даниил,16.02.2026,M1-PM,56-60,-,qp-T,45-90,MI
+118,26 test Daniil Coils,07_DB_M1_T_45_53-53MSO.hdf5,26,7,"5,9",75,"0,50",,Бердышев Даниил,16.02.2026,M1,53,-,T,45,MI
+119,26 test Daniil Coils,08_DB_M1_qp_45_45-45MSO.hdf5,26,8,"5,9",75,"0,33",,Бердышев Даниил,16.02.2026,M1,45,-,qp,45,MI
+120,26 test Daniil Coils,09_DB_M1_T_-135_53-53MSO.hdf5,26,9,"5,94",75,"0,03",,Бердышев Даниил,16.02.2026,M1,53,-,T,-135,MI
+121,27 test Artem Coils,01_AY_M1_qp_45.hdf5,27,1,"5,91",75,"0,20",,Яшин Артём,18.02.2026,M1,40,100,qp,45,MI
+122,27 test Artem Coils,02_AY_M1_T_45.hdf5,27,2,"5,93",75,"0,06",,Яшин Артём,18.02.2026,M1,55,-,T,45,MI
+123,27 test Artem Coils,03_AY_M1_T_-135.hdf5,27,3,"5,89",75,"0,02",,Яшин Артём,18.02.2026,M1,55,-,T,-135,MI
+124,27 test Artem Coils,04_AY_SMA_qp_90.hdf5,27,4,"5,92",75,"0,03",,Яшин Артём,18.02.2026,SMA,48,"1,2",qp,90,MI
+125,27 test Artem Coils,05_AY_SMA_qp_0.hdf5,27,5,"5,89",75,"0,00",,Яшин Артём,18.02.2026,SMA,48,"1,2",qp,0,MI
+126,27 test Artem Coils,06_AY_M1-PM_qp-T_45-90.hdf5,27,6,"5,88",75,"0,49",,Яшин Артём,18.02.2026,M1-PM,40-55,-,qp-T,45-90,MI
+127,27 test Artem Coils,07_AY_M1_T_45_45-45MSO.hdf5,27,7,"5,91",75,"0,19",,Яшин Артём,18.02.2026,M1,45-45,-,T,45,MI
+128,27 test Artem Coils,08_AY_M1_T_-135_45-45MSO.hdf5,27,8,"5,89",73,"0,04",,Яшин Артём,18.02.2026,M1,45-45,-,T,-135,MI
+129,27 test Artem Coils,09_AY_M1_qp_45_33-33MSO.hdf5,27,9,"5,93",75,"0,61",,Яшин Артём,18.03.2026,М1,33-33,-,qp,45,MI
+130,28 test Anatoly sync phases,01_AV_M1_triplets_real.hdf5,28,1,"5,88",75,"0,31",,Васильев Анатолий,05.03.2026,M1,50,100,qp,45,real triplets
+131,28 test Anatoly sync phases,02_AV_M1_triplets_im.hdf5,28,2,"5,88",75,"0,56",,Васильев Анатолий,05.03.2026,M1,50,100,qp,45,MI triplets
+132,28 test Anatoly sync phases,03_AV_M1_single_im.hdf5,28,3,"5,45",75,"0,47",,Васильев Анатолий,05.03.2026,M1,50,100,qp,45,MI single
+133,28 test Anatoly sync phases,04_AV_M1_single_im_38MSO.hdf5,28,4,"5,46",75,"0,01",,Васильев Анатолий,05.03.2026,M1,38,76,qp,45,MI single
+134,28 test Anatoly sync phases,05_AV_SMA_triplets_real.hdf5,28,5,"5,89",75,"0,11",,Васильев Анатолий,05.03.2026,SMA,50,100,qp,90,real triplets
+135,28 test Anatoly sync phases,06_AV_SMA_triplets_im.hdf5,28,6,"5,88",75,"0,08",,Васильев Анатолий,05.03.2026,SMA,50,100,qp,90,MI triplets
+136,28 test Anatoly sync phases,07_AV_SMA_single_im.hdf5,28,7,"5,46",75,"0,04",,Васильев Анатолий,05.03.2026,SMA,50,100,qp,90,MI single
+137,29 test Anatoly sync phases2,01_AV_M1_38MSO_allSounds.hdf5,29,1,"6,13",72,"0,00",,Васильев Анатолий,11.03.2026,M1,38,70,qp,45,MI triplets all sounds
+138,29 test Anatoly sync phases2,02_AV_M1_38MSO_NoSounds.hdf5,29,2,"6,13",72,"0,00",,Васильев Анатолий,11.03.2026,M1,38,70,qp,45,MI triplets no sounds
+139,29 test Anatoly sync phases2,03_AV_M1_38MSO_SST_single.hdf5,29,3,"5,13",80,"0,00",,Васильев Анатолий,11.03.2026,M1,38,70,qp,45,SST 
+140,29 test Anatoly sync phases2,04_AV_M1_38MSO_SST_single.hdf5,29,4,"5,13",80,"0,00",,Васильев Анатолий,11.03.2026,M1,38,70,qp,45,SST 
+141,29 test Anatoly sync phases2,05_AV_M1_38MSO_SST_triplets.hdf5,29,5,"6,13",80,"0,00",,Васильев Анатолий,11.03.2026,M1,38,70,qp,45,SST 
+142,29 test Anatoly sync phases2,06_AV_vertex_38MSO_single.hdf5,29,6,"5,12",75,"0,00",,Васильев Анатолий,11.03.2026,vertex,38,70,qp,0,MI
+143,29 test Anatoly sync phases2,07_AV_SMA_60MSO_single.hdf5,29,7,"5,13",75,"0,09",,Васильев Анатолий,11.03.2026,SMA,60,110,qp,90,MI
+144,29 test Anatoly sync phases2,08_AV_SMA_43MSO_single.hdf5,29,8,"5,13",75,"0,00",,Васильев Анатолий,11.03.2026,SMA,43,80,qp,90,MI
+145,29 test Anatoly sync phases2,09_AV_SMA_43MSO_SST_single.hdf5,29,9,"5,13",80,"0,00",,Васильев Анатолий,11.03.2026,SMA,43,80,qp,90,SST 
+146,29 test Anatoly sync phases2,10_AV_SMA_60MSO_SST_single.hdf5,29,10,"5,13",80,"0,20",,Васильев Анатолий,11.03.2026,SMA,60,110,qp,90,SST
+147,30 test Timofey sync phases,01_TP_M1_60MSO_single_REAL.hdf5,30,1,"5,14",75,"0,15",,Пономорёв Тимофей,18.03.2026,M1,60,100,qp,45,real
+148,30 test Timofey sync phases,02_TP_M1_60MSO_single_MI.hdf5,30,2,"5,15",75,"0,09",,Пономорёв Тимофей,18.03.2026,M1,60,100,qp,45,MI
+149,30 test Timofey sync phases,03_TP_SMA_67MSO_single_REAL.hdf5,30,3,"5,15",75,"0,07",,Пономорёв Тимофей,18.03.2026,SMA,67,112,qp,90,real
+150,30 test Timofey sync phases,04_TP_SMA_67MSO_single_MI.hdf5,30,4,"5,14",75,"0,03",,Пономорёв Тимофей,18.03.2026,SMA,67,112,qp,90,MI
+151,30 test Timofey sync phases,05_TP_vertex_65MSO_single_REAL.hdf5,30,5,"5,14",75,"0,01",,Пономорёв Тимофей,18.03.2026,vertex,65,108,qp,0,real
+152,30 test Timofey sync phases,06_TP_SMA_67MSO_SST_REAL.hdf5,30,6,"5,14",80,"0,19",,Пономорёв Тимофей,18.03.2026,SMA,67,112,qp,90,SST
+153,30 test Timofey sync phases,07_TP_SMA_67MSO_SST_REAL.hdf5,30,7,"5,14",80,"0,12",,Пономорёв Тимофей,18.03.2026,SMA,67,112,qp,90,SST
+154,31 test Anatoly singlePooonk,01_AV_M1_SST.hdf5,31,1,"5,15",80,"0,14",,Васильев Анатолий,24.03.2026,M1,40,72,qp,45,SST
+155,31 test Anatoly singlePooonk,02_AV_M1_SST.hdf5,31,2,"5,15",80,"0,14",,Васильев Анатолий,24.03.2026,M1,40,72,qp,45,SST
+156,31 test Anatoly singlePooonk,03_AV_M1_real.hdf5,31,3,"5,16",75,"0,05",,Васильев Анатолий,24.03.2026,M1,40,72,qp,45,real
+157,31 test Anatoly singlePooonk,04_AV_M1_MI.hdf5,31,4,"5,15",75,"0,01",,Васильев Анатолий,24.03.2026,M1,40,72,qp,45,MI
+158,31 test Anatoly singlePooonk,05_AV_SMA_SST.hdf5,31,5,"5,15",80,"0,04",,Васильев Анатолий,24.03.2026,SMA,50,95,qp,90,SST
+159,31 test Anatoly singlePooonk,06_AV_SMA_SST.hdf5,31,6,"5,15",80,"0,03",,Васильев Анатолий,24.03.2026,SMA,50,95,qp,90,SST
+160,31 test Anatoly singlePooonk,07_AV_SMA_SST.hdf5,31,7,"5,15",80,"0,03",,Васильев Анатолий,24.03.2026,SMA,50,95,qp,90,SST
+161,31 test Anatoly singlePooonk,08_AV_SMA_left_hand.hdf5,31,8,"5,15",80,"0,08",,Васильев Анатолий,24.03.2026,SMA,50,95,qp,90,hands
+162,31 test Anatoly singlePooonk,09_AV_SMA_MI.hdf5,31,9,"5,14",75,"0,01",,Васильев Анатолий,24.03.2026,SMA,50,95,qp,90,MI
+163,32 test Andrey SST hands AP,01_AM_SMA_50MSO_SST.hdf5,32,1,"5,17",80,"0,38",,Мирошников Андрей,31.03.2026,SMA,50,125,qp,90,SST
+164,32 test Andrey SST hands AP,02_AM_SMA_50MSO_SST.hdf5,32,2,"5,18",80,"0,88",,Мирошников Андрей,31.03.2026,SMA,50,125,qp,90,SST
+165,32 test Andrey SST hands AP,03_AM_SMA_50MSO_hands.hdf5,32,3,"5,16",81,"0,53",,Мирошников Андрей,31.03.2026,SMA,50,125,qp,90,hands
+166,32 test Andrey SST hands AP,04_AM_SMA_50MSO_hands.hdf5,32,4,"5,18",80,"0,27",,Мирошников Андрей,31.03.2026,SMA,50,125,qp,90,hands
+167,32 test Andrey SST hands AP,05_AM_vertex_50MSO_hands.hdf5,32,5,"5,18",80,"0,02",,Мирошников Андрей,31.03.2026,vertex,50,125,qp,90,hands
+168,32 test Andrey SST hands AP,06_AM_M1_PA_40MSO_REAL.hdf5,32,6,"5,17",75,"0,58",,Мирошников Андрей,31.03.2026,M1,40,100,qp,0,real
+169,32 test Andrey SST hands AP,07_AM_M1_PA_40MSO_MI.hdf5,32,7,"5,16",76,"0,32",,Мирошников Андрей,31.03.2026,M1,40,100,qp,45,MI
+170,32 test Andrey SST hands AP,08_AM_M1_AP_40MSO_REAL.hdf5,32,8,"5,16",75,"0,45",,Мирошников Андрей,31.03.2026,M1,53,100,qp,-135,real
+171,32 test Andrey SST hands AP,09_AM_M1_AP_53MSO_MI.hdf5,32,9,"5,16",75,"0,09",,Мирошников Андрей,31.03.2026,M1,53,100,qp,-135,MI
+172,33 test Anatoly AP,01_AV_M1_PA_38MSO.hdf5,33,1,"5,16",75,"0,00",,Васильев Анатолий,04.04.2026,M1,38,71,qp,45,MI
+173,33 test Anatoly AP,02_AV_M1_AP_38MSO.hdf5,33,2,"5,14",75,"0,00",,Васильев Анатолий,04.04.2026,M1,38,71,qp,-135,MI
+174,33 test Anatoly AP,03_AV_M1_PA_45MSO.hdf5,33,3,"5,13",76,"0,01",,Васильев Анатолий,04.04.2026,M1,45,77,qp,-135,MI
+175,33 test Anatoly AP,04_AV_M1_AP_45MSO_SST.hdf5,33,4,"5,14",80,"0,08",,Васильев Анатолий,04.04.2026,M1,45,77,qp,-135,SST
+176,33 test Anatoly AP,05_AV_M1_AP_45MSO_SST.hdf5,33,5,"5,14",80,"0,12",,Васильев Анатолий,04.04.2026,M1,45,77,qp,-135,SST
+177,33 test Anatoly AP,06_AV_M1_AP_45MSO.hdf5,33,6,"5,15",76,"0,00",,Васильев Анатолий,04.04.2026,M1-shift,45,77,qp,-135,MI
+178,33 test Anatoly AP,07_AV_M1r_AP_45MSO.hdf5,33,7,"5,16",76,"0,00",,Васильев Анатолий,04.04.2026,M1-right,45,77,qp,-135,MI
+179,33 test Anatoly AP,08_AV_SMA_50MSO.hdf5,33,8,"5,14",76,"0,00",,Васильев Анатолий,04.04.2026,SMA,50,94,qp,90,MI
+180,33 test Anatoly AP,09_AV_SMA_50MSO.hdf5,33,9,"5,15",75,"0,00",,Васильев Анатолий,04.04.2026,SMA,50,94,qp,90,MI
+181,34 test Daniil phases SST,01_DB_M1_PA_56MSO_MI.hdf5,34,1,"5,16",76,"0,03",,Бердышев Даниил,08.04.2026,M1,56,,qp,45,MI
+182,34 test Daniil phases SST,02_DB_M1_PA_56MSO_SST.hdf5,34,2,"5,14",80,"0,04",,Бердышев Даниил,08.04.2026,M1,56,,qp,45,SST
+183,34 test Daniil phases SST,03_DB_M1_PA_56MSO_SST.hdf5,34,3,"5,14",80,"0,14",,Бердышев Даниил,08.04.2026,M1,56,,qp,45,SST
+184,34 test Daniil phases SST,05_DB_SMA_66MSO_MI.hdf5,34,4,"5,15",75,"0,02",,Бердышев Даниил,08.04.2026,SMA,66,,qp,90,MI
+185,34 test Daniil phases SST,06_DB_SMA_66MSO_SST.hdf5,34,5,"5,14",81,"0,11",,Бердышев Даниил,08.04.2026,SMA,66,,qp,90,SST
+186,34 test Daniil phases SST,07_DB_SMA_66MSO_SST.hdf5,34,6,"5,14",80,"0,13",,Бердышев Даниил,08.04.2026,SMA,66,,qp,90,SST
+187,34 test Daniil phases SST,08_DB_M1_right_53MSO_MI.hdf5,34,7,"5,14",76,"0,00",,Бердышев Даниил,08.04.2026,M1-right,53,,qp,45,MI
+188,35 test Anatoly PA AP M1,01_AV_SMA_50MSO.hdf5,35,1,"5,15",75,"0,00",,Васильев Анатолий,15.04.2026,SMA,50,,,90,MI
+189,35 test Anatoly PA AP M1,02_AV_M1_PA_43MSO.hdf5,35,2,"5,14",75,"0,01",,Васильев Анатолий,15.04.2026,M1,43,,,45,MI
+190,35 test Anatoly PA AP M1,03_AV_M1_shift_PA_43MSO.hdf5,35,3,"5,15",76,"0,00",,Васильев Анатолий,15.04.2026,M1-shift,43,,,45,MI
+191,35 test Anatoly PA AP M1,04_AV_M1r_PA_43MSO.hdf5,35,4,"5,15",75,"0,00",,Васильев Анатолий,15.04.2026,M1-right,43,,,45,MI
+192,35 test Anatoly PA AP M1,05_AV_M1_AP_49MSO.hdf5,35,5,"5,15",76,"0,00",,Васильев Анатолий,15.04.2026,M1,43,,,-135,MI
+193,35 test Anatoly PA AP M1,06_AV_M1_PA_43MSO.hdf5,35,6,"5,15",75,"0,01",,Васильев Анатолий,15.04.2026,M1,43,,,45,MI
+194,35 test Anatoly PA AP M1,07_AV_SMA_50MSO.hdf5,35,7,"5,15",75,"0,01",,Васильев Анатолий,15.04.2026,SMA,50,,,90,MI

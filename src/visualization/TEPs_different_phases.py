@@ -22,7 +22,7 @@ REGION_COLORS = {
     "prefrontal": "#8172B2",     # фиолетовый
 }
 EEG64_REGION_COLOR = {
-
+    "dark": "#040308", 
     # --- Prefrontal ---
     "Fp1": "#8172B2",
     "Fp2": "#8172B2",
