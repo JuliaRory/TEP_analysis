@@ -166,7 +166,7 @@ fileN,sessionName,filename,sessionID,setID,ISI,nEpoch,MEPpp,datasetN,Participant
 165,32 test Andrey SST hands AP,03_AM_SMA_50MSO_hands.hdf5,32,3,"5,16",81,"0,53",,Мирошников Андрей,31.03.2026,SMA,50,125,qp,90,hands
 166,32 test Andrey SST hands AP,04_AM_SMA_50MSO_hands.hdf5,32,4,"5,18",80,"0,27",,Мирошников Андрей,31.03.2026,SMA,50,125,qp,90,hands
 167,32 test Andrey SST hands AP,05_AM_vertex_50MSO_hands.hdf5,32,5,"5,18",80,"0,02",,Мирошников Андрей,31.03.2026,vertex,50,125,qp,90,hands
-168,32 test Andrey SST hands AP,06_AM_M1_PA_40MSO_REAL.hdf5,32,6,"5,17",75,"0,58",,Мирошников Андрей,31.03.2026,M1,40,100,qp,0,real
+168,32 test Andrey SST hands AP,06_AM_M1_PA_40MSO_REAL.hdf5,32,6,"5,17",75,"0,58",,Мирошников Андрей,31.03.2026,M1,40,100,qp,45,real
 169,32 test Andrey SST hands AP,07_AM_M1_PA_40MSO_MI.hdf5,32,7,"5,16",76,"0,32",,Мирошников Андрей,31.03.2026,M1,40,100,qp,45,MI
 170,32 test Andrey SST hands AP,08_AM_M1_AP_40MSO_REAL.hdf5,32,8,"5,16",75,"0,45",,Мирошников Андрей,31.03.2026,M1,53,100,qp,-135,real
 171,32 test Andrey SST hands AP,09_AM_M1_AP_53MSO_MI.hdf5,32,9,"5,16",75,"0,09",,Мирошников Андрей,31.03.2026,M1,53,100,qp,-135,MI
