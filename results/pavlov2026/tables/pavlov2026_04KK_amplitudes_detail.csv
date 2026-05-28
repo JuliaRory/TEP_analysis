@@ -1,7 +1,7 @@
 subject,session,run_cond,spot,condition,component,window_start_ms,window_end_ms,selected_rank,channel_idx,latency_ms,amplitude_uv,channel,source_files,source_originals
-04KK,39,real,M1_PA,rest,n20,10.0,25.0,1,38,10.0,-3.3432692807912825,CP3,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
-04KK,39,real,M1_PA,rest,n20,10.0,25.0,2,15,24.19999999999999,-3.3244406953454018,Fp2,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
-04KK,39,real,M1_PA,rest,n20,10.0,25.0,3,47,24.600000000000023,-3.2132028061151505,Fpz,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
+04KK,39,real,M1_PA,rest,n20,10.0,25.0,1,15,24.19999999999999,-3.3244406953454018,Fp2,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
+04KK,39,real,M1_PA,rest,n20,10.0,25.0,2,47,24.600000000000023,-3.2132028061151505,Fpz,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
+04KK,39,real,M1_PA,rest,n20,10.0,25.0,3,20,14.199999999999989,-3.1441669110953807,O2,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
 04KK,39,real,M1_PA,rest,p30,20.0,40.0,1,58,39.60000000000002,4.012589622288942,FC4,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
 04KK,39,real,M1_PA,rest,p30,20.0,40.0,2,2,27.19999999999999,3.7433586740493774,P7,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
 04KK,39,real,M1_PA,rest,p30,20.0,40.0,3,38,27.399999999999977,3.4741922223567965,CP3,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
@@ -9,14 +9,14 @@ subject,session,run_cond,spot,condition,component,window_start_ms,window_end_ms,
 04KK,39,real,M1_PA,rest,n45,40.0,55.0,2,10,53.39999999999998,-4.2486608773469925,CP1,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
 04KK,39,real,M1_PA,rest,n45,40.0,55.0,3,20,41.39999999999998,-3.8917564542684704,O2,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
 04KK,39,real,M1_PA,rest,p60,55.0,70.0,1,61,68.60000000000002,5.318356154859066,AF8,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
-04KK,39,real,M1_PA,rest,p60,55.0,70.0,2,38,56.0,-4.947129078954458,CP3,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
-04KK,39,real,M1_PA,rest,p60,55.0,70.0,3,46,63.80000000000001,4.9395200330019,AF4,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
-04KK,39,real,M1_PA,rest,n100,80.0,120.0,1,11,80.0,-6.068152552247048,O1,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
+04KK,39,real,M1_PA,rest,p60,55.0,70.0,2,46,63.80000000000001,4.9395200330019,AF4,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
+04KK,39,real,M1_PA,rest,p60,55.0,70.0,3,15,68.60000000000002,4.909512300491333,Fp2,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
+04KK,39,real,M1_PA,rest,n100,80.0,120.0,1,11,80.60000000000002,-5.464703750610352,O1,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
 04KK,39,real,M1_PA,rest,n100,80.0,120.0,2,21,81.80000000000001,-4.901176301985979,Oz,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
 04KK,39,real,M1_PA,rest,n100,80.0,120.0,3,48,113.80000000000001,-4.796425894498825,FCz,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
-04KK,39,real,M1_PA,onset,n20,10.0,25.0,1,49,25.0,-3.9870442152023315,F2,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
-04KK,39,real,M1_PA,onset,n20,10.0,25.0,2,24,24.80000000000001,-3.946945874467492,F4,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
-04KK,39,real,M1_PA,onset,n20,10.0,25.0,3,14,25.0,-3.708169205188751,Fz,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
+04KK,39,real,M1_PA,onset,n20,10.0,25.0,1,24,24.80000000000001,-3.946945874467492,F4,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
+04KK,39,real,M1_PA,onset,n20,10.0,25.0,2,60,24.80000000000001,-3.510925444662571,F6,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
+04KK,39,real,M1_PA,onset,n20,10.0,25.0,3,49,24.0,-3.494882352799177,F2,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
 04KK,39,real,M1_PA,onset,p30,20.0,40.0,1,10,28.0,5.754667046219111,CP1,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
 04KK,39,real,M1_PA,onset,p30,20.0,40.0,2,19,29.399999999999977,5.702791029959917,Pz,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
 04KK,39,real,M1_PA,onset,p30,20.0,40.0,3,43,29.600000000000023,5.530740444660187,P1,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
@@ -30,8 +30,8 @@ subject,session,run_cond,spot,condition,component,window_start_ms,window_end_ms,
 04KK,39,real,M1_PA,onset,n100,80.0,120.0,2,14,84.0,-5.033892963975668,Fz,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
 04KK,39,real,M1_PA,onset,n100,80.0,120.0,3,45,111.19999999999999,-5.0301970782876015,F1,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
 04KK,39,real,M1_PA,after,n20,10.0,25.0,1,21,14.199999999999989,-3.8555654773906785,Oz,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
-04KK,39,real,M1_PA,after,n20,10.0,25.0,2,9,24.19999999999999,3.7260052097239056,C3,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
-04KK,39,real,M1_PA,after,n20,10.0,25.0,3,31,11.0,-3.5869508959657077,TP10,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
+04KK,39,real,M1_PA,after,n20,10.0,25.0,2,31,11.0,-3.5869508959657077,TP10,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
+04KK,39,real,M1_PA,after,n20,10.0,25.0,3,20,14.0,-3.5449224110996846,O2,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
 04KK,39,real,M1_PA,after,p30,20.0,40.0,1,38,28.19999999999999,4.873199772469851,CP3,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
 04KK,39,real,M1_PA,after,p30,20.0,40.0,2,9,25.399999999999977,4.843610234330503,C3,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
 04KK,39,real,M1_PA,after,p30,20.0,40.0,3,39,32.39999999999998,4.126671528329655,P5,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
@@ -44,27 +44,27 @@ subject,session,run_cond,spot,condition,component,window_start_ms,window_end_ms,
 04KK,39,real,M1_PA,after,n100,80.0,120.0,1,48,87.39999999999998,-8.308401380266462,FCz,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
 04KK,39,real,M1_PA,after,n100,80.0,120.0,2,49,88.19999999999999,-7.697401381268794,F2,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
 04KK,39,real,M1_PA,after,n100,80.0,120.0,3,14,88.19999999999999,-7.363094015997284,Fz,session_39__set_1__cleaned_SOUND.mat; session_39__set_7__cleaned_SOUND.mat,01_04KK_M1_PA_32MSO_real.hdf5; 07_04KK_M1_PA_32MSO_real.hdf5
-04KK,39,real,M1_AP,rest,n20,10.0,25.0,1,9,10.0,-17.829369868040086,C3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
-04KK,39,real,M1_AP,rest,n20,10.0,25.0,2,38,10.199999999999989,-14.87570871591568,CP3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
-04KK,39,real,M1_AP,rest,n20,10.0,25.0,3,42,10.0,-13.696316404342651,C1,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
+04KK,39,real,M1_AP,rest,n20,10.0,25.0,1,38,10.199999999999989,-14.87570871591568,CP3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
+04KK,39,real,M1_AP,rest,n20,10.0,25.0,2,9,12.600000000000023,-11.23928629875183,C3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
+04KK,39,real,M1_AP,rest,n20,10.0,25.0,3,8,14.199999999999989,-9.123698296546936,P3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,rest,p30,20.0,40.0,1,58,38.60000000000002,14.768537764549256,FC4,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,rest,p30,20.0,40.0,2,17,38.80000000000001,12.257184364795684,FC2,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,rest,p30,20.0,40.0,3,13,20.19999999999999,11.91576959848404,FC1,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,rest,n45,40.0,55.0,1,37,50.0,-9.306641478613018,FC3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,rest,n45,40.0,55.0,2,13,48.80000000000001,-8.930765404701233,FC1,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,rest,n45,40.0,55.0,3,42,48.80000000000001,-8.900561232566833,C1,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
-04KK,39,real,M1_AP,rest,p60,55.0,70.0,1,61,55.0,9.755880032777787,AF8,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
+04KK,39,real,M1_AP,rest,p60,55.0,70.0,1,61,55.60000000000002,9.625899371802808,AF8,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,rest,p60,55.0,70.0,2,15,55.19999999999999,9.310056258589029,Fp2,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,rest,p60,55.0,70.0,3,46,55.19999999999999,7.1563687205314634,AF4,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,rest,n100,80.0,120.0,1,38,89.19999999999999,-9.728910247087478,CP3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,rest,n100,80.0,120.0,2,9,89.0,-8.63162656992674,C3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,rest,n100,80.0,120.0,3,8,80.19999999999999,-6.28344946552068,P3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
-04KK,39,real,M1_AP,onset,n20,10.0,25.0,1,9,10.0,-15.623144598007203,C3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
-04KK,39,real,M1_AP,onset,n20,10.0,25.0,2,42,10.0,-12.849544541835785,C1,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
-04KK,39,real,M1_AP,onset,n20,10.0,25.0,3,38,10.0,-12.456592845916749,CP3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
+04KK,39,real,M1_AP,onset,n20,10.0,25.0,1,38,10.800000000000011,-11.921329925060272,CP3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
+04KK,39,real,M1_AP,onset,n20,10.0,25.0,2,42,11.0,-10.278357965946197,C1,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
+04KK,39,real,M1_AP,onset,n20,10.0,25.0,3,9,12.800000000000011,-9.199202489852905,C3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,onset,p30,20.0,40.0,1,58,38.80000000000001,12.915532796382903,FC4,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
-04KK,39,real,M1_AP,onset,p30,20.0,40.0,2,13,20.0,12.720751786231995,FC1,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
-04KK,39,real,M1_AP,onset,p30,20.0,40.0,3,37,20.0,11.235877583026886,FC3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
+04KK,39,real,M1_AP,onset,p30,20.0,40.0,2,13,21.399999999999977,11.303529676795005,FC1,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
+04KK,39,real,M1_AP,onset,p30,20.0,40.0,3,37,20.600000000000023,11.00582092192024,FC3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,onset,n45,40.0,55.0,1,13,47.19999999999999,-11.596871255338192,FC1,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,onset,n45,40.0,55.0,2,42,45.39999999999998,-10.060724259614945,C1,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,onset,n45,40.0,55.0,3,48,47.60000000000002,-9.723965140683577,FCz,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
@@ -74,28 +74,28 @@ subject,session,run_cond,spot,condition,component,window_start_ms,window_end_ms,
 04KK,39,real,M1_AP,onset,n100,80.0,120.0,1,9,86.60000000000002,-9.312852106094361,C3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,onset,n100,80.0,120.0,2,42,87.0,-8.109029103517532,C1,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,onset,n100,80.0,120.0,3,38,83.0,-7.443226329088211,CP3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
-04KK,39,real,M1_AP,after,n20,10.0,25.0,1,9,10.0,-17.173535766601564,C3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
-04KK,39,real,M1_AP,after,n20,10.0,25.0,2,42,10.0,-14.427094878554344,C1,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
-04KK,39,real,M1_AP,after,n20,10.0,25.0,3,38,11.199999999999989,-13.18013300895691,CP3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
+04KK,39,real,M1_AP,after,n20,10.0,25.0,1,9,10.600000000000023,-15.64244354248047,C3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
+04KK,39,real,M1_AP,after,n20,10.0,25.0,2,38,11.199999999999989,-13.18013300895691,CP3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
+04KK,39,real,M1_AP,after,n20,10.0,25.0,3,10,10.600000000000023,-8.734343204498291,CP1,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,after,p30,20.0,40.0,1,58,38.80000000000001,13.151766700446606,FC4,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,after,p30,20.0,40.0,2,13,20.19999999999999,11.659471229314804,FC1,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,after,p30,20.0,40.0,3,17,37.60000000000002,10.281178399324418,FC2,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,after,n45,40.0,55.0,1,13,47.19999999999999,-12.719990627765656,FC1,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,after,n45,40.0,55.0,2,42,45.39999999999998,-11.461988863050937,C1,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,after,n45,40.0,55.0,3,37,48.19999999999999,-11.095186820030213,FC3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
-04KK,39,real,M1_AP,after,p60,55.0,70.0,1,29,55.0,5.4288366895914075,P8,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
-04KK,39,real,M1_AP,after,p60,55.0,70.0,2,8,55.0,4.87343513906002,P3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
-04KK,39,real,M1_AP,after,p60,55.0,70.0,3,63,55.0,4.530260368287563,TP8,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
+04KK,39,real,M1_AP,after,p60,55.0,70.0,1,29,55.60000000000002,5.326662005931139,P8,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
+04KK,39,real,M1_AP,after,p60,55.0,70.0,2,8,57.0,4.809939831728116,P3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
+04KK,39,real,M1_AP,after,p60,55.0,70.0,3,52,56.0,4.4946435603499415,POz,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,after,n100,80.0,120.0,1,9,86.39999999999998,-10.896062117815017,C3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,after,n100,80.0,120.0,2,42,88.19999999999999,-9.940368460416794,C1,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
 04KK,39,real,M1_AP,after,n100,80.0,120.0,3,38,89.19999999999999,-9.141737542152406,CP3,session_39__set_3__cleaned_SOUND.mat; session_39__set_5__cleaned_SOUND.mat,03_04KK_M1_AP_50MSO_real.hdf5; 05_04KK_M1_AP_50MSO_real.hdf5
-04KK,39,real,PPC_L,rest,n20,10.0,25.0,1,43,25.0,7.679376015663147,P1,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
-04KK,39,real,PPC_L,rest,n20,10.0,25.0,2,29,24.399999999999977,-6.976082356572151,P8,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
-04KK,39,real,PPC_L,rest,n20,10.0,25.0,3,57,11.399999999999977,-6.323699731826782,CP4,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
+04KK,39,real,PPC_L,rest,n20,10.0,25.0,1,29,24.399999999999977,-6.976082356572151,P8,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
+04KK,39,real,PPC_L,rest,n20,10.0,25.0,2,57,11.399999999999977,-6.323699731826782,CP4,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
+04KK,39,real,PPC_L,rest,n20,10.0,25.0,3,63,10.399999999999977,-5.9568113374710085,TP8,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
 04KK,39,real,PPC_L,rest,p30,20.0,40.0,1,43,20.399999999999977,9.966351661682129,P1,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
 04KK,39,real,PPC_L,rest,p30,20.0,40.0,2,52,39.39999999999998,7.4991161918640135,POz,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
 04KK,39,real,PPC_L,rest,p30,20.0,40.0,3,10,20.399999999999977,7.043214235305786,CP1,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
-04KK,39,real,PPC_L,rest,n45,40.0,55.0,1,63,40.0,-9.095511295199394,TP8,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
+04KK,39,real,PPC_L,rest,n45,40.0,55.0,1,63,40.60000000000002,-8.790074954032898,TP8,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
 04KK,39,real,PPC_L,rest,n45,40.0,55.0,2,29,42.60000000000002,-8.435907402038573,P8,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
 04KK,39,real,PPC_L,rest,n45,40.0,55.0,3,58,54.80000000000001,-8.382508298158646,FC4,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
 04KK,39,real,PPC_L,rest,p60,55.0,70.0,1,19,55.39999999999998,6.363411512374878,Pz,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
@@ -103,7 +103,7 @@ subject,session,run_cond,spot,condition,component,window_start_ms,window_end_ms,
 04KK,39,real,PPC_L,rest,p60,55.0,70.0,3,10,57.19999999999999,4.997134275436402,CP1,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
 04KK,39,real,PPC_L,rest,n100,80.0,120.0,1,22,119.60000000000002,-8.682885038256645,C4,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
 04KK,39,real,PPC_L,rest,n100,80.0,120.0,2,58,113.0,-8.632798269987106,FC4,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
-04KK,39,real,PPC_L,rest,n100,80.0,120.0,3,17,120.0,-8.257155903577804,FC2,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
+04KK,39,real,PPC_L,rest,n100,80.0,120.0,3,17,115.80000000000001,-8.094538255929947,FC2,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
 04KK,39,real,PPC_L,onset,n20,10.0,25.0,1,29,24.19999999999999,-7.73324725985527,P8,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
 04KK,39,real,PPC_L,onset,n20,10.0,25.0,2,54,24.399999999999977,-7.547175401449204,PO8,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
 04KK,39,real,PPC_L,onset,n20,10.0,25.0,3,20,22.80000000000001,-7.3353957259655,O2,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
@@ -113,15 +113,15 @@ subject,session,run_cond,spot,condition,component,window_start_ms,window_end_ms,
 04KK,39,real,PPC_L,onset,n45,40.0,55.0,1,54,42.80000000000001,-6.119267435073852,PO8,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
 04KK,39,real,PPC_L,onset,n45,40.0,55.0,2,63,40.80000000000001,-6.113784265518189,TP8,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
 04KK,39,real,PPC_L,onset,n45,40.0,55.0,3,29,40.19999999999999,-5.862719724178314,P8,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
-04KK,39,real,PPC_L,onset,p60,55.0,70.0,1,43,55.0,5.324132480621338,P1,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
+04KK,39,real,PPC_L,onset,p60,55.0,70.0,1,43,57.39999999999998,5.098948277235031,P1,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
 04KK,39,real,PPC_L,onset,p60,55.0,70.0,2,40,59.80000000000001,4.326215195655823,PO3,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
 04KK,39,real,PPC_L,onset,p60,55.0,70.0,3,19,61.39999999999998,4.228085291385651,Pz,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
 04KK,39,real,PPC_L,onset,n100,80.0,120.0,1,61,90.19999999999999,-6.7221705746650695,AF8,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
 04KK,39,real,PPC_L,onset,n100,80.0,120.0,2,15,90.0,-6.554878723621369,Fp2,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
 04KK,39,real,PPC_L,onset,n100,80.0,120.0,3,12,88.39999999999998,-5.7848949468135835,Fp1,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
-04KK,39,real,PPC_L,after,n20,10.0,25.0,1,10,24.0,5.023723866343499,CP1,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
-04KK,39,real,PPC_L,after,n20,10.0,25.0,2,43,23.80000000000001,4.959444277286529,P1,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
-04KK,39,real,PPC_L,after,n20,10.0,25.0,3,29,17.600000000000023,-4.586995770931244,P8,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
+04KK,39,real,PPC_L,after,n20,10.0,25.0,1,29,17.600000000000023,-4.586995770931244,P8,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
+04KK,39,real,PPC_L,after,n20,10.0,25.0,2,54,23.600000000000023,-4.579880113601685,PO8,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
+04KK,39,real,PPC_L,after,n20,10.0,25.0,3,20,24.0,-4.283859436511993,O2,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
 04KK,39,real,PPC_L,after,p30,20.0,40.0,1,43,20.19999999999999,7.036995459794998,P1,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
 04KK,39,real,PPC_L,after,p30,20.0,40.0,2,10,24.399999999999977,6.6205930376052855,CP1,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
 04KK,39,real,PPC_L,after,p30,20.0,40.0,3,38,29.80000000000001,4.430191999077797,CP3,session_39__set_9__cleaned_SOUND.mat,09_04KK_PPC_L_35MSO_real.hdf5
@@ -140,7 +140,7 @@ subject,session,run_cond,spot,condition,component,window_start_ms,window_end_ms,
 04KK,39,MI,M1_PA,rest,p30,20.0,40.0,1,22,34.0,4.3872215961664915,C4,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
 04KK,39,MI,M1_PA,rest,p30,20.0,40.0,2,58,34.19999999999999,4.2042396235466,FC4,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
 04KK,39,MI,M1_PA,rest,p30,20.0,40.0,3,9,20.80000000000001,3.7049469159543515,C3,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
-04KK,39,MI,M1_PA,rest,n45,40.0,55.0,1,38,55.0,-8.97906872600317,CP3,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
+04KK,39,MI,M1_PA,rest,n45,40.0,55.0,1,38,54.60000000000002,-8.686299737244845,CP3,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
 04KK,39,MI,M1_PA,rest,n45,40.0,55.0,2,3,54.60000000000002,-5.908148096203804,CP5,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
 04KK,39,MI,M1_PA,rest,n45,40.0,55.0,3,39,54.80000000000001,-5.617048342227935,P5,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
 04KK,39,MI,M1_PA,rest,p60,55.0,70.0,1,48,63.39999999999998,6.6804670810699465,FCz,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
@@ -157,7 +157,7 @@ subject,session,run_cond,spot,condition,component,window_start_ms,window_end_ms,
 04KK,39,MI,M1_PA,onset,p30,20.0,40.0,3,38,24.399999999999977,4.055539548993111,CP3,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
 04KK,39,MI,M1_PA,onset,n45,40.0,55.0,1,38,50.80000000000001,-7.383757658898831,CP3,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
 04KK,39,MI,M1_PA,onset,n45,40.0,55.0,2,3,53.0,-5.433929156959056,CP5,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
-04KK,39,MI,M1_PA,onset,n45,40.0,55.0,3,36,55.0,-4.626706377565861,C5,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
+04KK,39,MI,M1_PA,onset,n45,40.0,55.0,3,9,52.39999999999998,-4.549820421040058,C3,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
 04KK,39,MI,M1_PA,onset,p60,55.0,70.0,1,29,55.60000000000002,4.833788792341948,P8,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
 04KK,39,MI,M1_PA,onset,p60,55.0,70.0,2,54,55.39999999999998,4.439098282158374,PO8,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
 04KK,39,MI,M1_PA,onset,p60,55.0,70.0,3,56,55.60000000000002,4.328021404743194,P6,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
@@ -169,7 +169,7 @@ subject,session,run_cond,spot,condition,component,window_start_ms,window_end_ms,
 04KK,39,MI,M1_PA,after,n20,10.0,25.0,3,32,24.399999999999977,-3.6409395644813776,FT7,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
 04KK,39,MI,M1_PA,after,p30,20.0,40.0,1,22,32.60000000000002,5.457679017782211,C4,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
 04KK,39,MI,M1_PA,after,p30,20.0,40.0,2,58,32.60000000000002,5.132101649045945,FC4,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
-04KK,39,MI,M1_PA,after,p30,20.0,40.0,3,42,20.0,4.787950567007065,C1,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
+04KK,39,MI,M1_PA,after,p30,20.0,40.0,3,10,27.0,4.686780548393727,CP1,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
 04KK,39,MI,M1_PA,after,n45,40.0,55.0,1,38,54.80000000000001,-10.344230746924877,CP3,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
 04KK,39,MI,M1_PA,after,n45,40.0,55.0,2,9,53.60000000000002,-7.372502851188183,C3,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
 04KK,39,MI,M1_PA,after,n45,40.0,55.0,3,3,54.39999999999998,-6.4192502108216285,CP5,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
@@ -179,26 +179,26 @@ subject,session,run_cond,spot,condition,component,window_start_ms,window_end_ms,
 04KK,39,MI,M1_PA,after,n100,80.0,120.0,1,48,92.19999999999999,-6.9268759280443195,FCz,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
 04KK,39,MI,M1_PA,after,n100,80.0,120.0,2,58,113.0,-6.212220657765865,FC4,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
 04KK,39,MI,M1_PA,after,n100,80.0,120.0,3,13,94.80000000000001,-6.186194267570972,FC1,session_39__set_2__cleaned_SOUND.mat; session_39__set_8__cleaned_SOUND.mat,02_04KK_M1_PA_32MSO_MI.hdf5; 08_04KK_M1_PA_32MSO_MI.hdf5
-04KK,39,MI,M1_AP,rest,n20,10.0,25.0,1,9,10.0,-17.422940406799317,C3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
-04KK,39,MI,M1_AP,rest,n20,10.0,25.0,2,38,10.0,-16.588795872926713,CP3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
-04KK,39,MI,M1_AP,rest,n20,10.0,25.0,3,42,10.0,-12.166082878112793,C1,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
-04KK,39,MI,M1_AP,rest,p30,20.0,40.0,1,13,20.0,11.997432914376258,FC1,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
-04KK,39,MI,M1_AP,rest,p30,20.0,40.0,2,37,20.0,10.343784709572793,FC3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
-04KK,39,MI,M1_AP,rest,p30,20.0,40.0,3,48,20.19999999999999,9.9470296767354,FCz,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
+04KK,39,MI,M1_AP,rest,n20,10.0,25.0,1,38,11.0,-16.314688222408293,CP3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
+04KK,39,MI,M1_AP,rest,n20,10.0,25.0,2,9,11.0,-14.93554627418518,C3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
+04KK,39,MI,M1_AP,rest,n20,10.0,25.0,3,42,11.0,-9.667208428382873,C1,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
+04KK,39,MI,M1_AP,rest,p30,20.0,40.0,1,13,21.0,11.140749530792236,FC1,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
+04KK,39,MI,M1_AP,rest,p30,20.0,40.0,2,48,20.19999999999999,9.9470296767354,FCz,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
+04KK,39,MI,M1_AP,rest,p30,20.0,40.0,3,37,21.19999999999999,9.939412455260754,FC3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,rest,n45,40.0,55.0,1,13,49.0,-9.341973950564862,FC1,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,rest,n45,40.0,55.0,2,37,48.39999999999998,-8.326241893023253,FC3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
-04KK,39,MI,M1_AP,rest,n45,40.0,55.0,3,58,55.0,-8.115981595516205,FC4,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
+04KK,39,MI,M1_AP,rest,n45,40.0,55.0,3,42,47.60000000000002,-8.030022764205933,C1,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,rest,p60,55.0,70.0,1,61,55.19999999999999,6.912912760972977,AF8,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,rest,p60,55.0,70.0,2,37,66.60000000000002,6.1122204685211186,FC3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,rest,p60,55.0,70.0,3,26,55.39999999999998,6.005653187632561,F8,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,rest,n100,80.0,120.0,1,38,94.39999999999998,-10.008014515340328,CP3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,rest,n100,80.0,120.0,2,9,91.0,-8.792470316886902,C3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,rest,n100,80.0,120.0,3,10,107.39999999999998,-6.354169098734856,CP1,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
-04KK,39,MI,M1_AP,onset,n20,10.0,25.0,1,9,10.0,-15.040002174377442,C3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
-04KK,39,MI,M1_AP,onset,n20,10.0,25.0,2,38,10.199999999999989,-12.47032160639763,CP3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
-04KK,39,MI,M1_AP,onset,n20,10.0,25.0,3,42,10.0,-10.956372630000114,C1,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
+04KK,39,MI,M1_AP,onset,n20,10.0,25.0,1,38,10.199999999999989,-12.47032160639763,CP3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
+04KK,39,MI,M1_AP,onset,n20,10.0,25.0,2,9,11.199999999999989,-12.254332847595215,C3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
+04KK,39,MI,M1_AP,onset,n20,10.0,25.0,3,39,14.0,-6.983121934533119,P5,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,onset,p30,20.0,40.0,1,58,38.60000000000002,13.114224849939346,FC4,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
-04KK,39,MI,M1_AP,onset,p30,20.0,40.0,2,13,20.0,12.732868546843529,FC1,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
+04KK,39,MI,M1_AP,onset,p30,20.0,40.0,2,13,20.399999999999977,12.577814223766326,FC1,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,onset,p30,20.0,40.0,3,17,38.0,11.88323612332344,FC2,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,onset,n45,40.0,55.0,1,42,45.19999999999999,-7.75872017621994,C1,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,onset,n45,40.0,55.0,2,9,46.80000000000001,-7.455884183049202,C3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
@@ -209,10 +209,10 @@ subject,session,run_cond,spot,condition,component,window_start_ms,window_end_ms,
 04KK,39,MI,M1_AP,onset,n100,80.0,120.0,1,9,87.19999999999999,-7.382555658817291,C3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,onset,n100,80.0,120.0,2,38,96.60000000000002,-7.136443836137187,CP3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,onset,n100,80.0,120.0,3,42,90.39999999999998,-6.0451962059736255,C1,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
-04KK,39,MI,M1_AP,after,n20,10.0,25.0,1,9,10.0,-15.115666246414184,C3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
-04KK,39,MI,M1_AP,after,n20,10.0,25.0,2,38,10.199999999999989,-13.713888111114501,CP3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
-04KK,39,MI,M1_AP,after,n20,10.0,25.0,3,42,10.0,-10.965688776411117,C1,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
-04KK,39,MI,M1_AP,after,p30,20.0,40.0,1,13,20.0,12.631805626749992,FC1,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
+04KK,39,MI,M1_AP,after,n20,10.0,25.0,1,38,10.199999999999989,-13.713888111114501,CP3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
+04KK,39,MI,M1_AP,after,n20,10.0,25.0,2,9,12.199999999999989,-10.344453550577164,C3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
+04KK,39,MI,M1_AP,after,n20,10.0,25.0,3,8,15.199999999999989,-8.406545162200928,P3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
+04KK,39,MI,M1_AP,after,p30,20.0,40.0,1,13,20.399999999999977,12.29356772184372,FC1,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,after,p30,20.0,40.0,2,58,37.60000000000002,11.143933815956116,FC4,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,after,p30,20.0,40.0,3,37,20.399999999999977,10.98073088645935,FC3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,after,n45,40.0,55.0,1,42,46.60000000000002,-9.255858271121978,C1,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
@@ -220,7 +220,7 @@ subject,session,run_cond,spot,condition,component,window_start_ms,window_end_ms,
 04KK,39,MI,M1_AP,after,n45,40.0,55.0,3,13,49.39999999999998,-8.336819184162886,FC1,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,after,p60,55.0,70.0,1,61,55.19999999999999,6.791542245745659,AF8,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,after,p60,55.0,70.0,2,26,55.19999999999999,6.13934813067317,F8,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
-04KK,39,MI,M1_AP,after,p60,55.0,70.0,3,15,55.0,6.138085543513298,Fp2,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
+04KK,39,MI,M1_AP,after,p60,55.0,70.0,3,15,56.19999999999999,5.9442780493199825,Fp2,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,after,n100,80.0,120.0,1,9,86.60000000000002,-8.06903869509697,C3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,after,n100,80.0,120.0,2,38,98.39999999999998,-7.718404160737991,CP3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
 04KK,39,MI,M1_AP,after,n100,80.0,120.0,3,37,86.0,-6.803393844366074,FC3,session_39__set_4__cleaned_SOUND.mat; session_39__set_6__cleaned_SOUND.mat,04_04KK_M1_AP_50MSO_MI.hdf5; 06_04KK_M1_AP_50MSO_MI.hdf5
