@@ -244,21 +244,27 @@ def select_component_points(
         raise ValueError(f"No samples in component window {component}: {window}")
 
     data = teps[:, window_idxs]
-    fun = COMP_FUNS[component]
-    extreme_by_time = fun(data, axis=0)
-
     if component.startswith("n"):
-        channel_by_time = np.nanargmin(data, axis=0)
+        local_peak_idxs = np.nanargmin(data, axis=1)
     else:
-        channel_by_time = np.nanargmax(data, axis=0)
+        local_peak_idxs = np.nanargmax(data, axis=1)
 
-    n_pick = min(n_mean, extreme_by_time.size)
-    selected_local = np.argsort(np.abs(extreme_by_time))[-n_pick:][::-1]
+    channel_idxs = np.arange(data.shape[0])
+    channel_amplitudes = data[channel_idxs, local_peak_idxs]
+    finite_channel_mask = np.isfinite(channel_amplitudes)
+    valid_channel_idxs = channel_idxs[finite_channel_mask]
+    valid_amplitudes = channel_amplitudes[finite_channel_mask]
+
+    if valid_channel_idxs.size == 0:
+        raise ValueError(f"No finite amplitudes in component window {component}: {window}")
+
+    n_pick = min(n_mean, valid_channel_idxs.size)
+    selected_valid_order = np.argsort(np.abs(valid_amplitudes))[-n_pick:][::-1]
 
     points = []
-    for rank, local_idx in enumerate(selected_local, start=1):
-        time_idx = int(window_idxs[local_idx])
-        channel_idx = int(channel_by_time[local_idx])
+    for rank, valid_pos in enumerate(selected_valid_order, start=1):
+        channel_idx = int(valid_channel_idxs[valid_pos])
+        time_idx = int(window_idxs[local_peak_idxs[channel_idx]])
         amplitude = float(teps[channel_idx, time_idx])
         points.append(
             {
