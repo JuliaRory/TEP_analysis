@@ -10,6 +10,7 @@ import h5py
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+from scipy.signal import find_peaks
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -244,34 +245,67 @@ def select_component_points(
         raise ValueError(f"No samples in component window {component}: {window}")
 
     data = teps[:, window_idxs]
-    if component.startswith("n"):
-        local_peak_idxs = np.nanargmin(data, axis=1)
-    else:
-        local_peak_idxs = np.nanargmax(data, axis=1)
+    is_negative_component = component.startswith("n")
 
-    channel_idxs = np.arange(data.shape[0])
-    channel_amplitudes = data[channel_idxs, local_peak_idxs]
-    finite_channel_mask = np.isfinite(channel_amplitudes)
-    valid_channel_idxs = channel_idxs[finite_channel_mask]
-    valid_amplitudes = channel_amplitudes[finite_channel_mask]
+    channel_candidates = []
+    for channel_idx, channel_data in enumerate(data):
+        if not np.all(np.isfinite(channel_data)):
+            continue
 
-    if valid_channel_idxs.size == 0:
-        raise ValueError(f"No finite amplitudes in component window {component}: {window}")
+        local_peak_idxs, _ = find_peaks(-channel_data if is_negative_component else channel_data)
+        if local_peak_idxs.size == 0:
+            continue
 
-    n_pick = min(n_mean, valid_channel_idxs.size)
-    selected_valid_order = np.argsort(np.abs(valid_amplitudes))[-n_pick:][::-1]
+        local_peak_values = channel_data[local_peak_idxs]
+        if is_negative_component:
+            directed_idxs = local_peak_idxs[local_peak_values < 0]
+            directed_values = channel_data[directed_idxs]
+            if directed_idxs.size == 0:
+                continue
+            best_pos = int(np.argmin(directed_values))
+        else:
+            directed_idxs = local_peak_idxs[local_peak_values > 0]
+            directed_values = channel_data[directed_idxs]
+            if directed_idxs.size == 0:
+                continue
+            best_pos = int(np.argmax(directed_values))
+
+        local_idx = int(directed_idxs[best_pos])
+        amplitude = float(channel_data[local_idx])
+        channel_candidates.append(
+            {
+                "channel_idx": int(channel_idx),
+                "local_idx": local_idx,
+                "amplitude_uv": amplitude,
+                "score": -amplitude if is_negative_component else amplitude,
+            }
+        )
+
+    if not channel_candidates:
+        summary = {
+            "amplitude_abs_mean_topn_uv": np.nan,
+            "amplitude_signed_mean_topn_uv": np.nan,
+            "latency_mean_topn_ms": np.nan,
+            "peak_amplitude_uv": np.nan,
+            "peak_latency_ms": np.nan,
+            "peak_channel_idx": np.nan,
+            "n_selected": 0,
+        }
+        return [], summary
+
+    channel_candidates = sorted(channel_candidates, key=lambda item: item["score"], reverse=True)
+    selected_candidates = channel_candidates[: min(n_mean, len(channel_candidates))]
 
     points = []
-    for rank, valid_pos in enumerate(selected_valid_order, start=1):
-        channel_idx = int(valid_channel_idxs[valid_pos])
-        time_idx = int(window_idxs[local_peak_idxs[channel_idx]])
-        amplitude = float(teps[channel_idx, time_idx])
+    for rank, candidate in enumerate(selected_candidates, start=1):
+        channel_idx = int(candidate["channel_idx"])
+        time_idx = int(window_idxs[candidate["local_idx"]])
         points.append(
             {
                 "selected_rank": rank,
                 "channel_idx": channel_idx,
                 "latency_ms": float(tvec[time_idx]),
-                "amplitude_uv": amplitude,
+                "amplitude_uv": float(candidate["amplitude_uv"]),
             }
         )
 
@@ -330,7 +364,10 @@ def analyze_selection(
             }
 
             summary_row = {**row_base, **summary}
-            summary_row["peak_channel"] = channel_names[summary["peak_channel_idx"]]
+            if np.isfinite(summary["peak_channel_idx"]):
+                summary_row["peak_channel"] = channel_names[int(summary["peak_channel_idx"])]
+            else:
+                summary_row["peak_channel"] = np.nan
             summary_rows.append(summary_row)
 
             for point in points:
