@@ -543,7 +543,7 @@ def run(
     run_conds: list[str] | None = None,
     spots: list[str] | None = None,
     n_mean: int = 3,
-    y_limit: float = 30.0,
+    y_limit: float = 18.0,
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
     data_dir = Path(data_dir) if data_dir is not None else resolve_default_data_dir()
     output_dir = Path(output_dir)
