@@ -624,7 +624,7 @@ def build_argparser() -> argparse.ArgumentParser:
     parser.add_argument("--conds", nargs="*", default=None, help="Run conditions: real, MI")
     parser.add_argument("--spots", nargs="*", default=None, help="Spots: M1_PA, M1_AP, PPC_L")
     parser.add_argument("--n-mean", type=int, default=3)
-    parser.add_argument("--y-limit", type=float, default=30.0)
+    parser.add_argument("--y-limit", type=float, default=18.0)
     return parser
 
 
