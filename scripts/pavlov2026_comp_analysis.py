@@ -16,6 +16,7 @@ from scipy.signal import find_peaks
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 LOCAL_DATA_DIR = PROJECT_ROOT / "data" / "exp"
 EXTERNAL_DATA_DIR = Path(r"D:\2025 - TEP\data - trans\CLEAN_EPOCHS_UI")
+EXTERNAL_DATA_DIR = Path(r"D:\2025 - TEP\data - trans\temporal")
 DEFAULT_RESULTS_DIR = PROJECT_ROOT / "results" / "pavlov2026"
 
 SESSION_BY_SUBJECT = {
@@ -27,6 +28,8 @@ SESSION_BY_SUBJECT = {
     "05UB": 43,
     "08EN": 45,
     "10ES": 52,
+    "09TI": 55, 
+    "14AL": 58
 }
 
 RUN_CONDS = ("real", "MI")
