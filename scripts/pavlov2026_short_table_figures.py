@@ -13,7 +13,6 @@ from scripts.pavlov2026_comp_analysis import (
     COMP_COLORS,
     COMP_WINDOWS,
     DEFAULT_RESULTS_DIR,
-    INNER_CONDITIONS,
     RUN_CONDS,
     SESSION_BY_SUBJECT,
     SoundRecord,
@@ -26,11 +25,8 @@ from scripts.pavlov2026_comp_analysis import (
 
 
 DEFAULT_TABLE_PATH = DEFAULT_RESULTS_DIR / "short_table.xlsx"
-DEFAULT_FIGURES_DIR = DEFAULT_RESULTS_DIR / "figures_short_table"
-TABLE_CONDITION_BY_PANEL = {
-    "rest": "rest",
-    "onset": None,
-}
+DEFAULT_FIGURES_DIR = DEFAULT_RESULTS_DIR / "figures_short_table_states"
+PANEL_CONDITIONS = ("real", "MI", "rest")
 
 
 def sanitize_filename_part(value: str) -> str:
@@ -104,45 +100,69 @@ def discover_records_recursive(data_dir: Path) -> list[SoundRecord]:
     return records
 
 
-def collect_teps_by_condition(
+def mean_teps_for_label(
+    epochs: np.ndarray,
+    labels: np.ndarray,
+    label: str,
+) -> np.ndarray | None:
+    epoch_mask = labels == label
+    if not np.any(epoch_mask):
+        return None
+    return np.mean(epochs[:, epoch_mask, :], axis=1)
+
+
+def collect_panel_teps(
     records,
     subject: str,
-    run_cond: str,
     spot: str,
 ) -> tuple[np.ndarray, dict[str, np.ndarray]]:
-    epochs, labels, tvec, _ = collect_epochs(records, subject, run_cond, spot)
+    tvec = None
+    teps_by_panel = {}
+    rest_epochs = []
 
-    teps_by_condition = {}
-    for inner_condition in INNER_CONDITIONS:
-        epoch_mask = labels == inner_condition
-        if np.any(epoch_mask):
-            teps_by_condition[inner_condition] = np.mean(epochs[:, epoch_mask, :], axis=1)
+    for run_cond in RUN_CONDS:
+        try:
+            epochs, labels, run_tvec, _ = collect_epochs(records, subject, run_cond, spot)
+        except FileNotFoundError:
+            continue
 
-    return tvec, teps_by_condition
+        if tvec is None:
+            tvec = run_tvec
+        elif not np.allclose(tvec, run_tvec):
+            raise ValueError(f"{subject} {spot}: tvec differs between run conditions")
+
+        onset_teps = mean_teps_for_label(epochs, labels, "onset")
+        if onset_teps is not None:
+            teps_by_panel[run_cond] = onset_teps
+
+        rest_mask = labels == "rest"
+        if np.any(rest_mask):
+            rest_epochs.append(epochs[:, rest_mask, :])
+
+    if tvec is None:
+        raise FileNotFoundError(f"No files for {subject}, {spot}")
+
+    if rest_epochs:
+        teps_by_panel["rest"] = np.mean(np.concatenate(rest_epochs, axis=1), axis=1)
+
+    return tvec, teps_by_panel
 
 
 def make_points_by_panel(
     table_df: pd.DataFrame,
     subject: str,
-    run_cond: str,
     spot: str,
 ) -> dict[str, dict[str, list[dict]]]:
     points_by_panel: dict[str, dict[str, list[dict]]] = {
         panel: {component: [] for component in COMP_WINDOWS}
-        for panel in INNER_CONDITIONS
+        for panel in PANEL_CONDITIONS
     }
 
-    for panel in INNER_CONDITIONS:
-        table_condition = TABLE_CONDITION_BY_PANEL.get(panel)
-        if table_condition is None and panel == "onset":
-            table_condition = run_cond
-        if table_condition is None:
-            continue
-
+    for panel in PANEL_CONDITIONS:
         panel_df = table_df.loc[
             table_df["subject"].eq(subject)
             & table_df["spot"].eq(spot)
-            & table_df["condition"].eq(table_condition)
+            & table_df["condition"].eq(panel)
         ]
 
         for _, row in panel_df.iterrows():
@@ -154,7 +174,7 @@ def make_points_by_panel(
                 {
                     "latency_ms": float(row["latency_ms"]),
                     "amplitude_uv": float(row["amplitude_uv"]),
-                    "table_condition": table_condition,
+                    "table_condition": panel,
                 }
             )
 
@@ -164,7 +184,6 @@ def make_points_by_panel(
 def save_short_table_figure(
     output_path: Path,
     subject: str,
-    run_cond: str,
     spot: str,
     tvec: np.ndarray,
     teps_by_condition: dict[str, np.ndarray],
@@ -174,21 +193,21 @@ def save_short_table_figure(
 ) -> None:
     fig, axes = plt.subplots(1, 3, figsize=(18, 5), sharex=True, sharey=True)
     fig.suptitle(
-        f"{subject} | session {SESSION_BY_SUBJECT[subject]} | {run_cond} | {spot} | short_table",
+        f"{subject} | session {SESSION_BY_SUBJECT[subject]} | {spot} | short_table",
         fontsize=16,
     )
 
-    for ax, inner_condition in zip(axes, INNER_CONDITIONS):
-        teps = teps_by_condition.get(inner_condition)
+    for ax, panel_condition in zip(axes, PANEL_CONDITIONS):
+        teps = teps_by_condition.get(panel_condition)
         if teps is None:
-            ax.set_title(f"{inner_condition}: no epochs", fontsize=13)
+            ax.set_title(f"{panel_condition}: no epochs", fontsize=13)
             ax.axis("off")
             continue
 
         for color, tep in zip(channel_colors, teps):
             ax.plot(tvec, tep, color=color, linewidth=0.75, alpha=0.9)
 
-        for component, points in points_by_condition[inner_condition].items():
+        for component, points in points_by_condition[panel_condition].items():
             xs = [point["latency_ms"] for point in points]
             ys = [point["amplitude_uv"] for point in points]
             if not points:
@@ -219,7 +238,7 @@ def save_short_table_figure(
         ax.set_xlim(5, 150)
         ax.set_ylim(-y_limit, y_limit)
         ax.grid(color="lightgrey", linewidth=0.8)
-        ax.set_title(inner_condition, fontsize=14)
+        ax.set_title(panel_condition, fontsize=14)
         ax.set_xlabel("Time [ms]", fontsize=12)
 
     axes[0].set_ylabel("EEG signal [uV]", fontsize=12)
@@ -249,7 +268,6 @@ def run(
     table_path: Path = DEFAULT_TABLE_PATH,
     output_dir: Path = DEFAULT_FIGURES_DIR,
     subjects: list[str] | None = None,
-    run_conds: list[str] | None = None,
     spots: list[str] | None = None,
     y_limit: float = 18.0,
 ) -> list[Path]:
@@ -261,7 +279,6 @@ def run(
     table_df = normalize_short_table(table_path)
 
     subjects = subjects or sorted(table_df["subject"].dropna().unique().tolist())
-    run_conds = run_conds or list(RUN_CONDS)
     spots = spots or sorted(table_df["spot"].dropna().unique().tolist())
 
     unknown_subjects = sorted(set(subjects) - set(SESSION_BY_SUBJECT))
@@ -279,48 +296,46 @@ def run(
     saved_paths = []
     for subject in subjects:
         print(f"\nSubject {subject} / session {SESSION_BY_SUBJECT[subject]}")
-        for run_cond in run_conds:
-            for spot in spots:
-                if table_df.loc[table_df["subject"].eq(subject) & table_df["spot"].eq(spot)].empty:
-                    print(f"  skip: no table rows for {subject} {spot}")
-                    continue
+        for spot in spots:
+            if table_df.loc[table_df["subject"].eq(subject) & table_df["spot"].eq(spot)].empty:
+                print(f"  skip: no table rows for {subject} {spot}")
+                continue
 
-                try:
-                    tvec, teps_by_condition = collect_teps_by_condition(records, subject, run_cond, spot)
-                except FileNotFoundError:
-                    print(f"  skip: no files for {subject} {run_cond} {spot}")
-                    continue
+            try:
+                tvec, teps_by_condition = collect_panel_teps(records, subject, spot)
+            except FileNotFoundError:
+                print(f"  skip: no files for {subject} {spot}")
+                continue
 
-                points_by_condition = make_points_by_panel(table_df, subject, run_cond, spot)
-                plotted_points = sum(
-                    len(points)
-                    for by_component in points_by_condition.values()
-                    for points in by_component.values()
-                )
-                if plotted_points == 0:
-                    print(f"  skip: no finite table points for {subject} {run_cond} {spot}")
-                    continue
+            points_by_condition = make_points_by_panel(table_df, subject, spot)
+            plotted_points = sum(
+                len(points)
+                for panel, by_component in points_by_condition.items()
+                if panel in teps_by_condition
+                for points in by_component.values()
+            )
+            if plotted_points == 0:
+                print(f"  skip: no finite table points for {subject} {spot}")
+                continue
 
-                figure_name = (
-                    f"pavlov2026_{sanitize_filename_part(subject)}_"
-                    f"session{SESSION_BY_SUBJECT[subject]}_"
-                    f"{sanitize_filename_part(run_cond)}_"
-                    f"{sanitize_filename_part(spot)}_short_table.png"
-                )
-                output_path = output_dir / figure_name
-                save_short_table_figure(
-                    output_path=output_path,
-                    subject=subject,
-                    run_cond=run_cond,
-                    spot=spot,
-                    tvec=tvec,
-                    teps_by_condition=teps_by_condition,
-                    points_by_condition=points_by_condition,
-                    channel_colors=channel_colors,
-                    y_limit=y_limit,
-                )
-                saved_paths.append(output_path)
-                print(f"  saved {output_path.name} ({plotted_points} points)")
+            figure_name = (
+                f"pavlov2026_{sanitize_filename_part(subject)}_"
+                f"session{SESSION_BY_SUBJECT[subject]}_"
+                f"{sanitize_filename_part(spot)}_short_table.png"
+            )
+            output_path = output_dir / figure_name
+            save_short_table_figure(
+                output_path=output_path,
+                subject=subject,
+                spot=spot,
+                tvec=tvec,
+                teps_by_condition=teps_by_condition,
+                points_by_condition=points_by_condition,
+                channel_colors=channel_colors,
+                y_limit=y_limit,
+            )
+            saved_paths.append(output_path)
+            print(f"  saved {output_path.name} ({plotted_points} points)")
 
     if not saved_paths:
         raise RuntimeError("No short-table figures were created")
@@ -337,7 +352,6 @@ def build_argparser() -> argparse.ArgumentParser:
     parser.add_argument("--table", type=Path, default=DEFAULT_TABLE_PATH)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_FIGURES_DIR)
     parser.add_argument("--subjects", nargs="*", default=None, help="Subjects, e.g. 01AV 10ES")
-    parser.add_argument("--conds", nargs="*", default=None, help="Run conditions: real, MI")
     parser.add_argument("--spots", nargs="*", default=None, help="Spots: M1_PA, M1_AP")
     parser.add_argument("--y-limit", type=float, default=18.0)
     return parser
@@ -350,7 +364,6 @@ def main(argv: list[str] | None = None) -> None:
         table_path=args.table,
         output_dir=args.output_dir,
         subjects=parse_list_arg(args.subjects),
-        run_conds=parse_list_arg(args.conds),
         spots=parse_list_arg(args.spots),
         y_limit=args.y_limit,
     )
