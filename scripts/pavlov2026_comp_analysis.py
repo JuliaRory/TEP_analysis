@@ -20,17 +20,27 @@ EXTERNAL_DATA_DIR = Path(r"D:\2025 - TEP\data - trans\temporal")
 DEFAULT_RESULTS_DIR = PROJECT_ROOT / "results" / "pavlov2026"
 
 SESSION_BY_SUBJECT = {
-    "01AV": 38,
-    "04KK": 39,
-    "02NS": 41,
-    "03AZ": 40,
-    "07IK": 42,
-    "05UB": 43,
-    "08EN": 45,
-    "10ES": 52,
-    "09TI": 55, 
-    "14AL": 58
-}
+    # "01AV": 38,
+    # "04KK": 39,
+    # "02NS": 41,
+    # "03AZ": 40,
+    # "07IK": 42,
+    # "05UB": 43,
+    # "08EN": 45,
+    # "10ES": 52,
+    # "09TI": 55, 
+    # "14AL": 58,
+    "15SZ": 64,
+    "16ED": 67,
+    "18EK": 76,
+    "19IT": 82,
+    "20FG": 91,
+    "21VC": 101,
+    "22SK": 100,
+    "23MM": 98,
+    "24VB": 99,
+    "25IZ": 107
+} 
 
 RUN_CONDS = ("real", "MI")
 SPOTS = ("M1_PA", "M1_AP", "PPC_L")
